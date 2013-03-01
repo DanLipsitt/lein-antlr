@@ -91,7 +91,7 @@ the org.antlr.Tool class."} opts-to-setter-map
    :profile 'setProfile})
 
 (def ^{:doc "The collection of file extensions that ANTLR accepts (hard-coded in the ANTLR tool)."}
-      file-types #{"g" "g3"})
+      file-types #{"g4"})
 
 (defmacro make-antlr-tool [antlr-opts]
   "Creates the ANTLR tool and initializes it with the configuration settings in antlr-opts."
