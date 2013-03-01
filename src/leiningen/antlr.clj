@@ -17,7 +17,7 @@
         [robert.hooke :only (add-hook)])
   (:import [java.io File FileFilter]
            [java.net URI]
-           [org.antlr Tool]))
+           [org.antlr.v4 Tool]))
 
 (defn sub-dirs
   "Recursively find all subdirectories under the given root directory. Also returns the root directory."
